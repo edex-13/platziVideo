@@ -83,7 +83,7 @@ body{
     height: 50px;
     padding: 0px 20px;
     width: 70%;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
     outline: none; 
 
 
@@ -94,7 +94,13 @@ body{
 .input::placeholder{
     color: white;
 }
-
+.categories__title{
+    color: white;
+    font-size: 17px;
+    position: absolute;
+    padding-left: 30px;
+    margin-top: 10px;
+}
 /* carrusel */
 
 .carousel{
