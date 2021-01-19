@@ -1,5 +1,5 @@
 window.addEventListener('load', function () {
-   if (screen.width > 600) {
+   if (screen.width > 1000) {
       new Glider(document.querySelector('.carousel__container'), {
          slidesToShow: 4,
          slidesToScroll: 4,
