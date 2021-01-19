@@ -5,7 +5,6 @@
 }
 body{
     background-color: #8F57FD;
-
 }
 
 /* header */
@@ -131,9 +130,6 @@ body{
     transform-origin: center left;
     position: relative;
 }
-.carousel-item:last-child{
-    margin-right: 80px;
-}
 .carousel-item:hover ~ .carousel-item{
     transform: translate3d(100px,0,0);
 }
@@ -190,7 +186,7 @@ body{
     align-items: center;
     background-color: #8f57fd;
     display: flex;
-    height: 100px;
+    min-height: 100px;
     width: 100%;
 }
 
@@ -198,11 +194,19 @@ body{
     color: white;
     cursor: pointer;
     font-size: 16px;
-    padding: 40px;
+    padding: 10px 20px;
     text-decoration: none;
 }
 
 
 .footer a:hover {
     text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .footer {
+        align-items: flex-start;
+        flex-direction: column;
+    }
 }
