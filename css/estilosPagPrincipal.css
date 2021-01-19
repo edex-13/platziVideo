@@ -202,7 +202,7 @@ ul:hover {
    text-decoration: underline;
 }
 
-@media only screen and (max-width: 999px) {
+@media only screen and (max-width: 1000px) {
    .main {
       margin-top: 40px;
    }
