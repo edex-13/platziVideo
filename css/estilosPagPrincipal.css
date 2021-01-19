@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
     font-family: 'Muli', sans-serif;
 }
 body{
@@ -96,16 +97,15 @@ body{
 .categories__title{
     color: white;
     font-size: 18px;
-    position: absolute;
     padding-left: 30px;
     margin-top: 10px;
 }
 /* carrusel */
 
 .carousel{
-    width: 100%;
+    /* width: 100%; */
     overflow: scroll;
-    padding: 30px;
+    padding: 35px 0px 00px 30px;
     position: relative;
     box-sizing: border-box;
     overflow-y: hidden;
