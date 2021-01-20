@@ -21,7 +21,7 @@ window.addEventListener('load', function () {
       new Glider(document.querySelector('.carousel__container--originalesDePlatziVideo'), {
          slidesToShow: 4,
          slidesToScroll: 4,
-         dots: '.indicadores--originalesDePlatziVideo',
+         dots: '.indicadores--originalesDePlaziVideo',
          arrows: {
             prev: '.btn__izq--originalesDePlatziVideo',
             next: '.btn__derec--originalesDePlatziVideo',

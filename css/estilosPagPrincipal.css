@@ -103,11 +103,9 @@ ul:hover {
 
 .carousel{
     /* width: 100%; */
-    overflow: scroll;
     padding: 35px 0px 00px 30px;
     position: relative;
     box-sizing: border-box;
-    overflow-y: hidden;
     margin-bottom: 60px;
     margin-left: 30px;
 }
@@ -118,7 +116,6 @@ ul:hover {
     padding-bottom:10px ;
 }
 .carousel-item{
-    background-color: salmon;
     width:215px;
     height: 265px;
     border-radius: 20px;
@@ -181,7 +178,22 @@ ul:hover {
     font-size: 8px;
     margin: 3px 0px;
 }
+.indicadores .glider-dot {
+	display: block;
+	width: 30px;
+	height: 4px;
+	background: #fff;
+	opacity: .2;
+	border-radius: 0;
+}
 
+.indicadores .glider-dot:hover {
+	opacity: .5;
+}
+
+.indicadores .glider-dot.active {
+	opacity: 1;
+}
 .footer {
    align-items: center;
    background-color: #8f57fd;
