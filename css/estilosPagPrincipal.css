@@ -298,24 +298,31 @@ ul:hover {
       color: white;
       font-size: 9px;
    }
-.carousel__anterior,
-.carousel__siguiente {
+.btn__izq,
+.btn__derec {
+   position: absolute;
 	border: none;
-	background: rgba(0,0,0,0.3);
+	background: rgba(96, 57, 175, 0.5);
 	font-size: 40px;
-	height: 50%;
-	top: calc(50% - 25%);
+	height: 30%;
 	line-height: 40px;
 	width: 50px;
 	color: #fff;
 	cursor: pointer;
 	z-index: 500;
 	transition: .2s ease all;
+   outline: none;
+   top: calc(50% - 15%);
 }
-
-.carousel__anterior:hover,
-.carousel__siguiente:hover {
-background: rgba(0,0,0, .9);
+.btn__izq{
+   left:  0;
+}
+.btn__derec{
+   right: 0;
+}
+.btn__izq:hover,
+.btn__derec:hover {
+background: rgba(64, 28, 136, 0.7);
 }
 
 
