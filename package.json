@@ -1,0 +1,23 @@
+{
+  "name": "platzivideo",
+  "version": "1.0.0",
+  "description": "Este es un proyecto de videos desarrollado en la escuela de desarrollo web",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edex-13/platziVideo.git"
+  },
+  "keywords": [
+    "Node",
+    "JavaScript"
+  ],
+  "author": "Ederson Felipe López Bolívar <ederson12f@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edex-13/platziVideo/issues"
+  },
+  "homepage": "https://github.com/edex-13/platziVideo#readme"
+}
