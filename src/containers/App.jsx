@@ -8,7 +8,7 @@ const App = () => (
 	<React.Fragment>
 		<Header />
 		<Searcher/>
-		<Categories>
+		<Categories title="Mi lista">
 			<Carousel>
 				<CarouselItem/>
 				<CarouselItem/>
