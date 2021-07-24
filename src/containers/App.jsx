@@ -8,7 +8,6 @@ import useInitialState from '../hooks/useInitialState';
 const App = () => {
 	const API = 'http://localhost:8080/initialState';
 	const initialState = useInitialState(API);
-	console.log(initialState.mylist);
 	return (
 		<React.Fragment>
 			<Header />
