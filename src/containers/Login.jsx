@@ -1,5 +1,6 @@
 import React from 'react';
-import Input from '../components/Input'
+import Input from '../components/Input';
+import BtnPrimary from '../components/BtnPrimary';
 import icon_google from '../assets/images/google-icon.png';
 import icon_twitter from '../assets/images/twitter-icon.png';
 import '../assets/styles/components/Login.scss';
@@ -8,9 +9,9 @@ const Login = () => (
 		<section className="login__container">
 			<h2>Inicia sesión</h2>
 			<form className="login__container--form">
-				<Input typeInput="text" textPlaceholder="Correo"/>
-				<Input typeInput="password" textPlaceholder="Contraseña"/>
-				<button className="button">Iniciar sesión</button>
+				<Input typeInput="text" textPlaceholder="Correo" />
+				<Input typeInput="password" textPlaceholder="Contraseña" />
+				<BtnPrimary btnText="Iniciar sesión" />
 				<div className="login__container--remember-me">
 					<label>
 						<input type="checkbox" id="cbox1" value="first_checkbox" />
