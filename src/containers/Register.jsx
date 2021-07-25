@@ -1,4 +1,6 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
+
 import Input from '../components/Input';
 import BtnPrimary from '../components/BtnPrimary';
 
@@ -14,7 +16,7 @@ const Register = () => (
 				<Input typeInput="password" textPlaceholder="Contraseña" />
 				<BtnPrimary btnText="Iniciar sesión" />
 			</form>
-			<a href="">Iniciar sesión</a>
+      <Link to="/login">Iniciar sesión</Link>
 		</section>
 	</section>
 );
