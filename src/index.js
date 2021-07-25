@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import App from "./containers/Login"
+import App from "./containers/Register"
 
 // Estilos
 
