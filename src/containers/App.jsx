@@ -10,7 +10,6 @@ const App = () => {
 	const initialState = useInitialState(API);
 	return (
 		<React.Fragment>
-			<Header />
 			<Searcher />
 			{initialState.mylist?.length > 0 && (
 				<Categories title="Mi lista">
